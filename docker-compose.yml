@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  app:
+    build: .
+    image: mattipaksula/httpshell-console-io
+    environment:
+    - PORT=8080
+    ports:
+      - 8080:8080
